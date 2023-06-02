@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@xk&@8-36xnbi=wp!jc!+v1-d=dsk5$%m$3rq4^#%ng38k+eqq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://localhost:3001", "127.0.0.1"]
+ALLOWED_HOSTS = ["http://localhost:3001", "127.0.0.1", "16.171.24.43"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
