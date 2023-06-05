@@ -9,9 +9,9 @@ class Learner(models.Model):
     physical_address = models.CharField(max_length=1000, default = True)
     password = models.CharField(max_length = 50)
     cellphone = models.CharField(max_length=10)
-    id_copy = models.CharField(max_length=13)
-    matric_certificate = models.CharField(max_length = 10)
-    proof_of_income = models.CharField(max_length=10)
+    id_copy = models.FileField(upload_to='files/')
+    matric_certificate = models.FileField(upload_to='files/')
+    proof_of_income = models.FileField(upload_to='files/')
 
 class Address(models.Model):
     block_number = models.BigIntegerField()
